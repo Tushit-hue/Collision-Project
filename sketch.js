@@ -4,9 +4,9 @@ var mouse , mouseImage , mouseImage2 , mouseImage3;
 var dx = 15; 
 function preload() {
     //load the images here
-    PAImage = loadImage('images/garden.png')
+    PAImage = loadImage("images/garden.png")
 
-    mouseImage = loadAnimation('images/jerryOne.png')
+    mouseImage = loadAnimation("images/jerryOne.png")
     mouseImage2 = loadAnimation('images/jerryTwo.png','images/jerryThree.png')
     mouseImage3 = loadAnimation('images/jerryFour.png')
 
